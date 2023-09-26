@@ -3,76 +3,63 @@ package hw8Inheritance;
 public class AnimalTest {
 
 	public static void main(String[] args) {
-		Animal animal = new Animal();
+		Animal animal = new Animal(); // single inheritance
 		animal.animalInfo();
 
-		Mammal mammal = new Mammal();
+		Mammal mammal = new Mammal(); // hierarchical inheritance
 		mammal.mammalInfo();
-		
+
 		mammal.animalInfo();
 
-		Reptile reptile = new Reptile();
+		Reptile reptile = new Reptile(); // hierarchical inheritance
 		reptile.reptileInfo();
 
 		reptile.animalInfo();
-		
-		
-		Birds birds = new Birds();
+
+		Birds birds = new Birds(); // hierarchical inheritance
 		birds.birdsInfo();
-		
+
 		birds.animalInfo();
 
-		Dog dog = new Dog();
+		Dog dog = new Dog(); // multilevel inheritance
 		dog.dogInfo();
-		
+
 		dog.mammalInfo();
 		dog.animalInfo();
 
-		Snake snake = new Snake();
+		Snake snake = new Snake(); // multilevel inheritance
 		snake.snakeInfo();
-		
+
 		snake.reptileInfo();
 		snake.animalInfo();
 
-		Robin robin = new Robin();
+		Robin robin = new Robin(); // multilevel inheritance
 		robin.robinInfo();
-		
+
 		robin.birdsInfo();
 		robin.animalInfo();
 
-		BullDog bulldog = new BullDog();
+		BullDog bulldog = new BullDog(); // multilevel inheritance
 		bulldog.bullDogInfo();
-		
+
 		bulldog.dogInfo();
 		bulldog.mammalInfo();
 		bulldog.animalInfo();
 
-		Cobra cobra = new Cobra();
+		Cobra cobra = new Cobra(); // multilevel inheritance
 		cobra.cobraInfo();
 		cobra.snakeInfo();
 		cobra.reptileInfo();
 		cobra.animalInfo();
 
 // Robin is the child Class and Birds is the parent Class
-		
-		//
-		
-		
-		/*
-		 * 
-		 * Now extends BullDog, Cobra, and Robin class to their parent's class and 
-		 * 
-		 * show their hierarchy to Animal Class, for example, bulldog -- dog -- mammal --Animal, Cobra -- snake--reptile--Animal, Robin -- Bird -- Animal, etc. 
-		 * 
-		 * 
-		 * We know, An object Can call other methods if the class is extended, if yes, show all the possible calls. 
-		 * 
-		 * 
-		 * Use Java comments to show single inheritance, multilevel inheritance, and Hierarchical inheritance by example from the above. Also, as shown by java comments who is the Parent class, and who is the child class for at least one class? Organize the code.
-		 * 
-		 * 
-		 * 
-		 * */
+
+		// Bulldog is the child class and dog is the parents class
+		// Mammal is the child class and animal is the parents class
+		// Cobra is the child class and snake is the parents class
+		// Snake is the child class and reptile is the parents class
+		// Robin is the child class and birds is the parents class
+		// Birds is the child class and animal is the parents class
 
 	}
 

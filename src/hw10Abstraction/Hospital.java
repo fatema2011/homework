@@ -1,4 +1,4 @@
-package hw9Abstraction;
+package hw10Abstraction;
 
 public interface Hospital {
 
@@ -7,5 +7,13 @@ public interface Hospital {
 	public void surgeryRoom();
 
 	public void cafeteria();
+
+	public default void morgue() {
+
+	}
+
+	public static void pharmacy() {
+
+	}
 
 }
