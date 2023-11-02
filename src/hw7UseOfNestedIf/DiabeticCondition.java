@@ -6,7 +6,6 @@ public class DiabeticCondition {
 
 	public static void main(String[] args) {
 
-	
 		System.out.println("<-- Please Enter your Hemoglobin A1C value below -->");
 		Scanner scanner = new Scanner(System.in);
 		double hbA1c = scanner.nextDouble();

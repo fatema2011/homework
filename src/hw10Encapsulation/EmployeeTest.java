@@ -6,7 +6,7 @@ public class EmployeeTest {
 
 		Employee employee = new Employee();
 		employee.setName("Fatema");
-		employee.setAge(0);
+		employee.setAge(30);
 		employee.setSex('F');
 		employee.setUsCitizen(true);
 

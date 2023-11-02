@@ -14,6 +14,7 @@ public interface College {
 
 	public static void studyRoom() {
 
+		
 	}
 
 }

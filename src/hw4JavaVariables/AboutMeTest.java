@@ -28,5 +28,6 @@ public class AboutMeTest {
 		alex.aboutMe(); // method is initialized here
 
 	}
+	
 
 }

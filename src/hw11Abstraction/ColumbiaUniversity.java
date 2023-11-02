@@ -1,29 +1,18 @@
 package hw11Abstraction;
 
-public class ColumbiaUniversity  {
-	//implements University, VocationalSchool
+public class ColumbiaUniversity {
+	// implements University, VocationalSchool
 
-
- 
-	
-	
-	
-	
 	/*
 	 * public abstract void chemistry(); regular class cannot have abstract method
 	 */
-	public ColumbiaUniversity() { 
+	public ColumbiaUniversity() {
 
 	}
 
 	public void biology() {
 		System.out.println("Something");
-	}   
-	
-	
-	public void biology() {
-		System.out.println("Something");
-	} 
+	}
 //	how many keywords are used for the inheritance in Java for a regular Class?
 // Ans: Regular class inheritance only one extends keyword.
 
@@ -33,5 +22,3 @@ public class ColumbiaUniversity  {
 
 // How many inheritances are possible by a regular Class	?
 // Ans: more than one by implements keyWord.	
-
-

@@ -6,8 +6,6 @@ public class Temperature {
 
 	public static void main(String[] args) {
 
-		
-
 		System.out.println("Today's Weather");
 
 		Scanner scanner = new Scanner(System.in);
@@ -32,4 +30,3 @@ public class Temperature {
 
 	}
 }
-
